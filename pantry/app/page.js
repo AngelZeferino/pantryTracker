@@ -1,6 +1,6 @@
 'use client'
 import {Box, Stack, Typography, Button, Modal, TextField} from '@mui/material';
-import {firestore} from '/pantry/firebase'
+import {firestore} from '@/firebase'
 import {collection, getDocs, query, setDoc, doc, deleteDoc, getDoc} from 'firebase/firestore'
 import {useEffect,useState} from 'react';
 
